@@ -1,0 +1,32 @@
+sap:
+  # (non-empty str) SAP system ID (e.g. P25, Q25 ...)
+  system: P25 
+
+data:
+  # (non-empty str) name of the FBL3N layout for data export
+  fbl3n_layout: Name
+
+reports:
+
+  # (non-empty str) path to the directory where
+  # the reports will be uploaded
+  upload_dir: N:\path\to\upload\dir 
+
+  # (non-empty str) name of the report, where $calendar_year$ 
+  # is a placeholder for the calendar year and $calendar_month$ 
+  # is a placeholder for the calendar month. The placeholders 
+  # will be automatically resolved to the actual values during 
+  # the report generation. 
+  name: Controlling_DACH_Report_$calendar_year$_$calendar_month$
+
+  # (non-empty str) name of the sheet where 
+  # the exported data will be stored
+  exported_datasheet_name: Name
+
+  # (non-empty str) name of the sheet where
+  # the processed data will be stored
+  processed_datasheet_name: Name 
+
+  # (non-empty str) name of the sheet where
+  # the pivotted data will be stored
+  pivotted_datasheet_name: Name

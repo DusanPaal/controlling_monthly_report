@@ -1,0 +1,5 @@
+"####":                 # A 4-digit number that represents the company code
+    country: Country    # The country where the company is located
+    active: true        # A boolean value that represents if the company is active or not
+    accounts:           # A list of accounts (int) to consider for reporting (must not be epmty)
+    cheque_accounts:    # A list of cheque accounts (int) to consider for reporting (may be empty)
